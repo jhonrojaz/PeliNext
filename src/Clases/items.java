@@ -81,15 +81,18 @@ public class items implements IVisualizable {
         return "Titulo: " + titulo + ",\nGenero: " + genero + ",\nCreador: " + creador + ",\nDuracion: " + duracion + ",\nVisto: " + visto ;
     }
     
+    @Override
     public void marcarVisto(String tvisualizado) {
         this.visto = true;
         this.tvisto = "Visualizando hasta el tiempo: " + tvisualizado;
     }
     
+    @Override
     public boolean esVisto() {
         return this.visto;
     }
     
+    @Override
     public String tiempoVisto() {
         return this.tvisto;
     }

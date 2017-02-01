@@ -10,5 +10,7 @@ package Clases;
  * @author SENA
  */
 interface IVisualizable {
-    
+    public void marcarVisto(String tvisualizado);
+    public boolean esVisto();
+    public String tiempoVisto();
 }
