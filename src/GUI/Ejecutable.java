@@ -19,7 +19,7 @@ public class Ejecutable {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+
          ArrayList<Pelicula> p = new ArrayList<>();
         ArrayList<Serie> s = new ArrayList<>();
 
@@ -47,9 +47,9 @@ public class Ejecutable {
             {
               System.out.println(p.get(i).toString());
                                 System.out.println("");
-          }
+    }
         }
-        
+
         System.out.println("Serie Visualizadas\n");
         for(int i=0;i<=4;i++)
         {
@@ -58,7 +58,7 @@ public class Ejecutable {
             } else {
                 System.out.println(s.get(i).toString());
                 System.out.println("");
-            }
+}
         }
         int indice=0;
         int mayor=0;
